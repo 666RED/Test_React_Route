@@ -1,7 +1,12 @@
 import React from "react";
+import Setup from "./project/react-router";
 
 const App = () => {
-  return <h1>Hello World</h1>;
+  return (
+    <div className="container">
+      <Setup />
+    </div>
+  );
 };
 
 export default App;
